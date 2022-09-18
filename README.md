@@ -28,5 +28,15 @@ The analysis of the election show that:
   - Diana Degette, who received 73.8% of the votes and 272,892 number of votes.
 
 ## Challenge Overview
+The purpose of this Election Audit Analysis was to utilize Python to read and extract data from a csv file. And after extracting the data, analyzing it, using basic Python data structures, statements, and functions in order to see the winners of the election as well as other catergories.
+
+Election-Audit Results:
+![image](https://user-images.githubusercontent.com/111463407/190881234-5aadc296-3211-4f36-a846-6c11f5d81216.png)
 
 ## Challenge Summary
+Provided the Election Data is uploaded in a similar format as our original csv file (ID in Row 0, County in Row 1, Candidate in Row 2), this script could be used for any election, only needing to change the csv file within the code.
+
+The script could also be modified for other elections as well.
+If, for example, we wanted to do this with a Presidential Election, we could modify our code to also include what political party had the most turnout as well.
+
+We could also modify this script to instead have state turnout rather than county turnout and see the percentage of the states votes instead.
